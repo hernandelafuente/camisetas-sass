@@ -40,7 +40,7 @@ html, body {
 }
 
 h2#arsenal {
-    color: lighten($arsenal-color, 50%); //llamada de la variable color del titulo desaturado sin crear un nuevo color
+    color: lighten($arsenal-color, 0%); //llamada de la variable color del titulo desaturado sin crear un nuevo color
 }
 #arsenal-local {
     @include camiseta-back("../img/Arsenal_Home_1000x1000.png", $arsenal-color )
